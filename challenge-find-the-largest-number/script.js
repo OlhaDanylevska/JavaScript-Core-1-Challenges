@@ -1,5 +1,11 @@
 function calculateLargestNumber(arrayOfNumbers) {
   // Write your code in here
+  arrayOfNumbers = [];
+  var largest = arr[0]
+  for(var i = 0; i < arrayOfNumbers.length; i++)
+  if (largest < arr[i]){
+    largest = arr[i]
+  }
 
   return 1;
 }
