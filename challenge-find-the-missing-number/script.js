@@ -1,7 +1,18 @@
 function missingNum(arr) {
   //Write your code in here. You should return the missing the number below.
-  return 0;
-}
+  let n = arr.length + 1,
+  sum = 0,
+  total = n * (n + 1)/2;
+  for(i=0; i < arr.length; i++){
+    sum += arr[i];
+  }
+  console.log(total - sum);
+  return total - sum;
+
+  }
+
+  
+
 
 /**                            */
 /**                            */
